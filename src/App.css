@@ -1,0 +1,50 @@
+.Wallet-change {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid #000;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+.Wallet-Selector {
+  margin: 0;
+  padding: 5px;
+  font-size: 17px;
+  width: 45%;
+  text-align: center;
+}
+
+.wallet-change__Selectors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Wallets-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Wallets-number input {
+  padding: 5px 0;
+  max-width: 50%;
+}
+
+.btn {
+  font-size: inherit;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.Orders-table th,
+.Orders-table td {
+  padding: 0 5px;
+  text-align: center;
+}
